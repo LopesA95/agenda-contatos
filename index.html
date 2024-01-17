@@ -20,11 +20,9 @@
       <h1>Agenda de Contatos</h1>
     </header>
     <form id="form-contacts">
-      <div class="inputs">
-        <input type="text" required placeholder="Nome" id="nome-contato">
-        <input type="number" required placeholder="Telefone" id="telefone-contato" max="999999999" min="0">
-        <button type="submit">Adicionar +</button>
-      </div>
+      <input type="text" required placeholder="Nome" id="nome-contato">
+      <input type="number" required placeholder="Telefone" id="telefone-contato" max="999999999" min="0">
+      <button type="submit">Adicionar +</button>
     </form>
     <table cellspacing="0">
       <thead>
@@ -37,8 +35,14 @@
           </th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="tbody">
       </tbody>
+      <tfoot id="tfoot">
+        <tr>
+          <td id="contato-nome-final">---</td>
+          <td id="contato-numero-final">---</td>
+        </tr>
+      </tfoot>
     </table>
   </div>
   <script src="./main.js"></script>

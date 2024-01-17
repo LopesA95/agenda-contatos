@@ -24,7 +24,7 @@ header img {
 header h1 {
   font-size: 40px;
   font-weight: bold;
-  color: blue;
+  color: rgb(0, 106, 255);
 }
 
 .container {
@@ -53,9 +53,6 @@ form input {
   padding: 8px;
 }
 
-.inputs {
-  width: 100%;
-}
 
 form button{
   background-color: #020a7a;
@@ -76,6 +73,7 @@ table th {
   padding: 16px;
   font-size: 24px;
   font-weight: bold;
+  color: #020a7a;
 }
 
 table td {
@@ -83,16 +81,12 @@ table td {
   text-align: center;
   font-size: 18px;
   border-bottom: 1px solid rgba(0,0,0,0.2);
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #0a0f4e;
 }
 
 table td img {
   height: 30px;
 }
 
-.resultado {
-  padding: 8px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #000;
-  border-radius: 3px;
-}
