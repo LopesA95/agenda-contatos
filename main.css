@@ -39,6 +39,7 @@ header h1 {
 
 form {
   display: flex;
+  flex-direction: column;
   max-width: 640px;
   width: 100%;
   justify-content: space-evenly;
@@ -46,6 +47,7 @@ form {
 }
 
 form input {
+  
   font-size: 24px;
   background-color: #fff;
   border: none;
